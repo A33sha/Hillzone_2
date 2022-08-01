@@ -737,6 +737,16 @@ footer {
     margin-right: auto; 
     text-align: center;
   }
+@media (max-width: 768px){
+	footer .wrapper{
+		flex-direction: column;
+		text-align: center;
+		)
+	footer .site-navigation .wrap{
+		flex-direction: column;
+		gap: 10px;
+		)
+		
 
 .hero {
   text-align: center;
@@ -1407,7 +1417,6 @@ body.fullscreen {
   padding: 45px 0;
   position: relative; }
 .hero-callouts .container .item-wrapper {
-  width: fit-content;
   display: flex;
   justify-content: center; 
   flex-wrap: wrap;
