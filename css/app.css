@@ -756,6 +756,9 @@ footer {
 	footer h5{
 		margin 10px 0;
 	}
+	footer .executive-network {
+		width: unset;
+}
 }
 .hero {
   text-align: center;
