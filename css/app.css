@@ -744,12 +744,18 @@ footer {
 	footer .wrapper{
 		flex-direction: column;
 		text-align: center;
+		padding zero
 	}
 	footer .site-navigation .wrap{
 		flex-direction: column;
-		gap: 10px;
+		gap: 0;
 	}
-		
+	footer .copyright{
+		width: 100%;
+	}
+	footer h5{
+		margin 10px 0;
+	}
 
 .hero {
   text-align: center;
